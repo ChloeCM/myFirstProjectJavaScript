@@ -12,7 +12,7 @@ files:
   - name: tests.py
     visible: false
     learner_created: false
-feedback_link: https://hyperskill.org/projects/426/stages/2494/implement#comment
+feedback_link: https://hyperskill.org/learn/step/41549#comment
 check_profile: hyperskill_node_javascript
 status: Solved
 feedback:

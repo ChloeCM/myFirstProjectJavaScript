@@ -7,8 +7,8 @@ const input = require('sync-input');
 // let age = Number(input("Type your age: "));
 // You will need it in later stages.
 
-// console.log("Prices:");
-// console.log("Bubblegum: $2\nToffee: $0.2\nIce cream: $5\nMilk chocolate: $4\nDoughnut: $2.5\nPancake: $3.2");
+console.log("Prices:");
+console.log("Bubblegum: $2\nToffee: $0.2\nIce cream: $5\nMilk chocolate: $4\nDoughnut: $2.5\nPancake: $3.2");
 
 let result = 202 + 118 + 2250 + 1680 + 1075 + 80;
 
@@ -21,4 +21,13 @@ console.log("Doughnut: $1075");
 console.log("Pancake: $80");
 console.log();
 console.log("Income: " + result);
+
+let staffExpenses = Number(input("Staff expenses: "));
+let otherExpenses = Number(input("Other expenses: "));
+
+let finalResult = result - staffExpenses - otherExpenses;
+
+console.log("Net income: " + finalResult);
+
+
 
