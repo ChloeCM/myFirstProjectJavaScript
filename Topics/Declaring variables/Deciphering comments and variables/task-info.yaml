@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: The variable &quot;x&quot; is not valid because it was declared within a multi-line
+      comment.
+  - text: Single-line comments can be created using &quot;//&quot; and multi-line comments
+      can be created using &quot;/*&quot; and &quot;*/&quot;.
+  - text: The &quot;x&quot; variable is declared with the &quot;var&quot; keyword and
+      initialized with the numeric value 10.
+  - text: "The &quot;y&quot; is declared by the &quot;let&quot; keyword and initialized\
+    \ with the string &quot;Hello, world&quot;."
+  - text: The &quot;z&quot; constant is not valid because variables cannot be elements
+      of an array.
+files:
+  - name: main.js
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/31417#comment
+status: Solved
+record: -1
+local_check: false

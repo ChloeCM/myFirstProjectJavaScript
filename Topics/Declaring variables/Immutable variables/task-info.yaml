@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: <code>let</code>
+  - text: <code>final</code>
+  - text: <code>const</code>
+  - text: <code>val</code>
+files:
+  - name: main.js
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8188#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: The semicolon at the end of the line denotes the end of the statement.
+  - text: The console.log function outputs &quot;5&quot; (with double quotes) to the
+      console.
+  - text: This code would cause an error because the console.log function is not properly
+      defined.
+  - text: The console.log function is used to print the information inside quotes to
+      the console.
+  - text: The code displays the digit 5 in the console.
+files:
+  - name: main.js
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/30980#comment
+status: Solved
+record: -1
+local_check: false
